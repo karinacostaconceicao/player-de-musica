@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Player Spotify</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+
+    <img src="img/palmeiras.jpg" alt="Imagem de uma bola de futebol em um campo">
+    
+    <div class="descricao">
+        <h2>Hino do Palmeiras</h2>
+        <i>Melhor time</i>
+    </div>
+
+    <div class="duracao">
+        <div class="barra">
+            <progress value="0" max="1"></progress>
+            
+            <div class="ponto">
+
+            </div>
+        </div>
+
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">2:14</p>
+        </div>
+    </div>
+
+    <div class="player">
+        <i class="fas fa-step-backward setas anterior"></i>
+        <i class="fas fa-play-circle botao-play"></i>
+        <i class="fas fa-pause-circle botao-pause"></i>
+        <i class="fas fa-step-forward setas proximo"></i>
+    </div>
+
+    <audio src="musicas/HINO DO PALMEIRAS(MP3_320K).mp3"></audio>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+</html>

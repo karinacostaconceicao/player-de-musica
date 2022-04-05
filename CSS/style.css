@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat&family=Rubik+Microbe&family=Send+Flowers&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Need to define heigth and width */
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+    color: #ddd;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.descricao{
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+h2{
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+i{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.duracao{
+    width: 300px;
+}
+
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* it works 'cause of display flex */
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width: 0%;
+    background-color: rgb(44, 77, 11);
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -2px;
+}
+
+.tempo{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.botao-play, .botao-pause{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botao-pause{
+    display: none;
+}
